@@ -19,11 +19,13 @@ function login() {
     }
 
     if(Username.trim()==Password.trim()){
+      
         alert("Welcome to the Page");
     } else{
+    
         alert("You have entered wrong credentials");
     }
-    
+    clearform();
 }
 function reset(){
     Username = document.getElementById("username").value;
@@ -34,4 +36,9 @@ function reset(){
     if(Password != ""){
         document.getElementById("hint2").style.display= "none";
     }
+}
+function clearform()
+{
+document.getElementById("username").value = "";
+document.getElementById("password").value = "";
 }
