@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    background-color: rgba(0, 119, 255, 0.267);
+}
+small{
+    margin-left: 120px;
+    color: tomato;
+}
